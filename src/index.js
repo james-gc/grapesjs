@@ -4,6 +4,8 @@ import { isElement, isFunction } from 'underscore';
 import polyfills from 'utils/polyfills';
 import PluginManager from './plugin_manager';
 
+import './styles/scss/main.scss';
+
 polyfills();
 
 const plugins = new PluginManager();

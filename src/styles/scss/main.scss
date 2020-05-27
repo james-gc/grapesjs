@@ -4,7 +4,7 @@
 @import "~codemirror/theme/hopscotch";
 
 
-@import "gjs_variables.scss";
+@import "./gjs_variables";
 
 
 @font-face {
@@ -559,4 +559,10 @@ $colorsAll: (one, $primaryColor),
 
 .cm-s-hopscotch span.cm-error {
     color: #ffffff;
+}
+
+.left-fix{
+  position: fixed;
+  top: 7em;
+  left: 1em;
 }
