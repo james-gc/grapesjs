@@ -73,6 +73,13 @@ module.exports = env => {
               }
             },
             "css-loader",
+            "resolve-url-loader",
+            {
+              loader: "postcss-loader",
+              options: {
+                plugins: () => [require("autoprefixer")]
+              }
+            },
             "sass-loader"
           ]
         },
